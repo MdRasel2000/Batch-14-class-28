@@ -63,7 +63,7 @@ let class8 = [
 
          }
         for(j=0; j<=4; j++){
-            if(class8[i][j]){
+            if(class8[i][j]>40){
                 console.log("pass");
             }
             else{
