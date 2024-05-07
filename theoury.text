@@ -1,0 +1,53 @@
+
+
+....nasted loop...
+
+for(){
+
+    for(){
+
+
+    }
+}
+
+
+
+let twodimensional arry = [
+    ["surma", "soni", "saima", "sanjida"]
+    ["jerin", "jeva", "jemi", "jamini"]
+    ["tania", "tasnim", "tonni", "tushi"]
+    ["abonti", "ava", "airin", "asmita"]
+
+]
+
+console.log(twodimensionalArry[0] [0]);
+console.log(twodimensionalArry[0] [1]);
+console.log(twodimensionalArry[0] [2]);
+console.log(twodimensionalArry[0] [3]);
+
+
+console.log(twodimensionalArry[1] [0]);
+console.log(twodimensionalArry[1] [1]);
+console.log(twodimensionalArry[1] [2]);
+console.log(twodimensionalArry[1] [3]);
+
+console.log(twodimensionalArry[2] [0]);
+console.log(twodimensionalArry[2] [1]);
+console.log(twodimensionalArry[2] [2]);
+console.log(twodimensionalArry[2] [3]);
+
+console.log(twodimensionalArry[3] [0]);
+console.log(twodimensionalArry[3] [1]);
+console.log(twodimensionalArry[3] [2]);
+console.log(twodimensionalArry[3] [3]);
+
+
+for(i=0; i<=3; i++){  i = 0, 1, 2, 3
+   
+    for(j=0; j<=3; j++){ j = 0, 1,2,3,
+
+        console.log(twodimensionalArry[i][j]);
+    }
+    
+
+}
