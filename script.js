@@ -53,7 +53,7 @@ let class8 = [
          if(i==0){
            console.log("section:A");
          }
-         else if(i=1){
+         else if(i==1){
             console.log("section:B");
 
          }
@@ -71,3 +71,43 @@ let class8 = [
             }
         }
     }
+     
+    
+    let number = [
+        [88, 20, 78, 10, 87],
+        [76, 90, 11, 22, 33],
+        [32, 56, 89, 99, 46],
+    
+        ]
+
+        for(i=0; i<=2; i++){
+
+            for(j=0; j<=4; j++){
+
+                if(number[i][j]>=80){
+                    console.log(number[i][j]+":Grade=A+");
+                }
+
+                else if(number[i][j]>=70){
+                    console.log(number[i][j]+":Grade=A");
+                }
+
+                else if(number[i][j]>=60){
+                    console.log(number[i][j]+":Grade=A-");
+                }
+
+                else if(number[i][j]>=50){
+                    console.log(number[i][j]+":Grade=B");
+                }
+
+
+
+                else {
+                    console.log(number[i][j]+":fail");
+                }
+            }
+        }
+
+    
+        
+       
